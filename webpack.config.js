@@ -141,6 +141,8 @@ module.exports = {
         contentBase: PATHS.src,
         // publicPath: 'http://localhost:9000',
         inline: true,
+        clientLogLevel: 'silent',
+        open: true,
     },
     optimization: optimization(),
 
